@@ -19,4 +19,9 @@ public class RNWogaaAnalyticsModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "RNWogaaAnalytics";
   }
+
+  @ReactMethod
+  public String hello() {
+    return 'Hello';
+  }
 }
